@@ -2,6 +2,6 @@ FROM  golang:1.16
 
 WORKDIR /app
 
-COPY . /app/
+COPY hello.go hello.go
 
-CMD ["go", "run", "hello_world.go"]
+CMD ["go", "run", "hello.go"]
